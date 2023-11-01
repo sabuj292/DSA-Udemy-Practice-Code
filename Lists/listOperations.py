@@ -19,3 +19,22 @@ print('\n')
 for i in range(len(shoppingList)):
     print(shoppingList[i])
     print('\n')
+
+
+# sorting list elements
+
+mylist = [9,8,7,6,5,4,3,2,1,0]
+
+origl = mylist[:]
+
+
+mylist.sort()
+
+print(origl)
+
+
+
+print(mylist)
+
+# another method of sorting a list
+sorted(mylist)
